@@ -1,0 +1,10 @@
+{"question":"What financial documents should an established business provide for a line of credit request?","expected_document_id":"FIC-LOC-001"}
+{"question":"Can an RM promise that a working capital line will be approved?","expected_document_id":"FIC-LOC-001"}
+{"question":"How should an RM interpret three consecutive monthly deposit decreases?","expected_document_id":"FIC-DEP-001"}
+{"question":"What factors should be checked before discussing ACH origination?","expected_document_id":"FIC-TRY-001"}
+{"question":"Who completes treasury product limits, testing, and implementation?","expected_document_id":"FIC-TRY-001"}
+{"question":"What business and beneficial ownership information is collected during onboarding?","expected_document_id":"FIC-CDD-001"}
+{"question":"When should identity inconsistencies be escalated?","expected_document_id":"FIC-CDD-001"}
+{"question":"What should an RM examine before a customer relationship review?","expected_document_id":"FIC-RM-001"}
+{"question":"Is a product gap automatically a recommendation?","expected_document_id":"FIC-RM-001"}
+{"question":"What should an RM consider when deposits decline for several months?","expected_document_id":"FIC-RM-001"}
