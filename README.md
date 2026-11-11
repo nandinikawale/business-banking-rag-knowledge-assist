@@ -1,6 +1,6 @@
 # Business Banking RAG Knowledge Assist
 
-A submission-ready retrieval-augmented generation project for Business Banking
+A retrieval-augmented generation project for Business Banking
 Relationship Managers. It retrieves from a versioned, entirely fictional policy and
 product knowledge base and returns answers with inspectable citations.
 
@@ -15,7 +15,7 @@ service guidance while preparing for customer conversations. This assistant redu
 search friction while keeping the evidence visible and preserving human accountability.
 It does not approve credit, determine compliance outcomes, or initiate transactions.
 
-## What the MVP demonstrates
+## What the project demonstrates
 
 - Markdown ingestion with required document metadata and versioning.
 - Heading-aware chunking with citation metadata.
@@ -44,7 +44,7 @@ question → optional category filter → top-k retrieval ───────�
                        Streamlit             FastAPI
 ```
 
-The local hashing embedder is a deliberate submission-stage choice: it is deterministic,
+The local hashing embedder is a deliberate baseline design choice: it is deterministic,
 has no model-download or API-key dependency, and keeps the live demo inexpensive. A
 semantic embedding provider and optional LLM answer generator are planned enhancements.
 
@@ -69,7 +69,7 @@ py -3.13 -m uv run banking-rag-evaluate
 
 ### Baseline retrieval results
 
-The submission benchmark contains ten banking questions with an expected source
+The baseline benchmark contains ten banking questions with an expected source
 document. With `top_k=4`, the current deterministic baseline achieves:
 
 | Metric | Result |
