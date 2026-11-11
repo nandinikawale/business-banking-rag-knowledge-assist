@@ -1,4 +1,4 @@
-# Business Banking RAG Knowledge Assistant
+# Business Banking RAG Knowledge Assist
 
 A submission-ready retrieval-augmented generation project for Business Banking
 Relationship Managers. It retrieves from a versioned, entirely fictional policy and
@@ -53,8 +53,8 @@ semantic embedding provider and optional LLM answer generator are planned enhanc
 Prerequisites: Python 3.13 and Internet access for the initial package installation.
 
 ```powershell
-git clone https://github.com/nandinikawale/business-banking-rag-knowledge-assistant.git
-cd business-banking-rag-knowledge-assistant
+git clone https://github.com/nandinikawale/business-banking-rag-knowledge-assist.git
+cd business-banking-rag-knowledge-assist
 py -3.13 -m pip install uv==0.12.24
 py -3.13 -m uv sync
 py -3.13 -m uv run streamlit run streamlit_app/app.py

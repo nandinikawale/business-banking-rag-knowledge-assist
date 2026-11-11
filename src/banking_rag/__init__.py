@@ -1,3 +1,3 @@
-"""Business Banking RAG Knowledge Assistant."""
+"""Business Banking RAG Knowledge Assist."""
 
 __version__ = "0.1.0"

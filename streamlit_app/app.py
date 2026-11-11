@@ -3,7 +3,7 @@ import streamlit as st
 from banking_rag.models import QueryRequest
 from banking_rag.pipeline import RAGPipeline
 
-st.set_page_config(page_title="Business Banking Knowledge Assistant", page_icon="📚", layout="wide")
+st.set_page_config(page_title="Business Banking Knowledge Assist", page_icon="📚", layout="wide")
 
 
 @st.cache_resource
@@ -13,7 +13,7 @@ def get_pipeline() -> RAGPipeline:
     return pipeline
 
 
-st.title("Business Banking RAG Knowledge Assistant")
+st.title("Business Banking RAG Knowledge Assist")
 st.caption("Cited answers from an entirely fictional policy and product knowledge base")
 st.info(
     "Portfolio demonstration only. The content is fictional and is not legal, compliance, "

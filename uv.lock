@@ -205,7 +205,7 @@ wheels = [
 ]
 
 [[package]]
-name = "business-banking-rag-knowledge-assistant"
+name = "business-banking-rag-knowledge-assist"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

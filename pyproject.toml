@@ -1,5 +1,5 @@
 [project]
-name = "business-banking-rag-knowledge-assistant"
+name = "business-banking-rag-knowledge-assist"
 version = "0.1.0"
 description = "A cited RAG assistant over fictional business banking knowledge"
 requires-python = ">=3.13,<3.14"
